@@ -1,30 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux'
-import { Provider, connect } from 'react-redux'
 import './index.css';
-import App from './step3/App';
+import Login from './step4/Login';
+//import Route from './step4/Router';
+//import { BrowserRouter as Route } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
 
-// Reducer
-function counter(state = { count: 0 }, action) {
-    const count = state.count
-    switch (action.type) {
-      case 'increase':
-        return { count: count + 1 }
-      default:
-        return state
-    }
-  }
-  
-  // Store
-  const store = createStore(counter)
 
-//ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(
-    <Provider store={store}>
-      <App />
-    </Provider>,
-    document.getElementById('root')
-  )
+ReactDOM.render(<Login />, document.getElementById('root'));
+/*ReactDOM.render((
+        <BrowserRouter>
+        <Route />
+    </BrowserRouter>
+), document.getElementById('root')); */
 registerServiceWorker();
