@@ -21,6 +21,13 @@ class App extends Component {
             .then(data => this.setState({ hits: data.hits }));
     }
 
+    componentWillMount() {
+
+    }
+    componentWillUnMount() {
+
+    }
+
     render() {
         const { hits } = this.state;
 
