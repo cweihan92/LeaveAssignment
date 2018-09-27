@@ -9,7 +9,7 @@ const Footer = () => (
                 <Link to="/generallogin">General Login</Link>&nbsp;|&nbsp;
                 <Link to="/adminlogin">Admin Login</Link>
             </div>
-            <div className="text-muted text-center">© Chinasoft International 2018, All rights are reserved.</div>
+            <div className="text-muted text-center">© Chia Wei Han 2018, All rights are reserved.</div>
         </div>
     </div>
 )

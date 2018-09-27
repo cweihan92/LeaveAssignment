@@ -43,13 +43,13 @@ class RequestForm extends Component {
 
                     <FormGroup controlId="radio">
                         <Radio name="radioGroup" inline>
-                            RadioGroup 1
+                            Annual Leave
                         </Radio>{' '}
                         <Radio name="radioGroup" inline>
-                            RadioGroup 2
+                            Medical Leave
                         </Radio>{' '}
                         <Radio name="radioGroup" inline>
-                            RadioGroup 3
+                            Compensation Leave
                         </Radio>
                     </FormGroup>
 
@@ -72,7 +72,7 @@ class RequestForm extends Component {
                         <ControlLabel>Name</ControlLabel>
                         <FormControl
                             type="text"
-                            value={this.state.name}
+                            // value={this.state.name}
                             placeholder="name"
                             onChange={this.handleChange}
                         ></FormControl>

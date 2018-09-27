@@ -33,7 +33,7 @@ class Home extends Component {
                         bsSize="large" block
                         onClick={this.handleClick}
                 >
-                    On-Leave Login (Request)
+                    On Leave Login (Request)
                 </Button>
                 <i className="fa fa-user-plus" style={{fontSize: 48, color: "green", marginTop:100}}></i>
                 <Button
